@@ -5,6 +5,7 @@ cd /tmp
 git clone $1
 echo "Hecho..."
 
+rm -rf /usr/local/tomcat/webapps/$2
 
 echo "Copiando el archivp $2.war al directorio de aplicaciones de tomcat"
 cd $2
